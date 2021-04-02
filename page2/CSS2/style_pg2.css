@@ -1,0 +1,450 @@
+html {
+    overflow: hidden;
+}
+body {
+    background-color: #e4fdf9;
+    margin:0;
+    padding:0;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    text-align:center;
+}
+
+.h3 {
+    font-size:14px;
+    width:50%;
+    text-align: center;
+    padding:0 0 0 283px;
+}
+.bg-pg2 {
+    display: flex;
+    flex-wrap:wrap;
+}
+
+.img1 {
+    padding:20px;
+}
+
+.img2 {
+    padding:20px;
+}
+
+.img3 {
+    padding:20px;
+}
+
+.img4 {
+    padding:20px; 
+}
+
+.img5 {
+    padding:20px;
+}
+
+.img6 {
+    padding:20px;
+}
+
+/* Research */
+ .pos_h3 {
+    position:absolute;
+    top:34%;
+    left:12%;
+}
+
+.style_h3 {
+    padding:0 0 0 6px;
+    font-size:17px;
+}
+
+.pos1_p {
+    position:absolute;
+    text-align:center;
+    width:27%;
+    top:39%;
+    left:2%;
+    padding:0 0 0 10px;
+}
+
+.style_p1 {
+    font-size:14px;
+}
+
+a {
+    text-decoration: none;
+    color:#000;
+}
+
+.pos1_btn {
+    position: absolute;
+    bottom:46%;
+    left:11%
+}
+
+.butt1_style {
+    border:2px solid #000;
+    padding:10px;
+
+}
+
+/* Portfolio */
+
+ .pos1_port_h3 {
+    position:absolute;
+    top:34%;
+    left:45%;
+    
+}
+
+.style1_port_h3 {
+    font-size:18px;
+}
+
+.pos1_port_p {
+    position:absolute;
+    text-align:center;
+    width:27%;
+    top:39%;
+    left:35%;
+    padding:0 0 0 10px;
+} */
+
+ .style1_port_p1 {
+    font-size:14px;
+}
+
+.pos_port_btn {
+    position: absolute;
+    bottom:46%;
+    left:44%;
+}
+
+.butt2_port_style {
+    border:2px solid #000;
+    padding:10px;
+}
+
+
+
+.pos1_port2_h3 {
+    position:absolute;
+    top:34%;
+    left:78%;
+}
+
+ .style1_port2_h3 {
+    font-size:18px;
+}
+
+.pos1_port2_p {
+    position:absolute;
+    text-align:center;
+    width:27%;
+    top:39%;
+    left:68%;
+    padding:0 0 0 10px;
+}
+
+.style1_port2_p1 {
+    font-size:14px;
+}
+
+.pos_port2_btn {
+    position: absolute;
+    bottom:46%;
+    left:77%;
+}
+
+.butt2_port2_style {
+    border:2px solid #000;
+    padding:10px;
+}
+
+
+.pos1_port3_h3 {
+    position:absolute;
+    top:79%;
+    left:10%;
+}
+
+.style1_port3_h3 {
+    font-size:18px;
+}
+
+.pos1_port3_p {
+    position:absolute;
+    text-align:center;
+    width:27%;
+    top:85%;
+    left:2%;
+    padding:0 0 0 10px;
+}
+
+.style1_port3_p1 {
+    font-size:14px;
+}
+
+.pos_port3_btn {
+    position: absolute;
+    bottom:0%;
+    left:11%;
+}
+
+.butt3_port3_style {
+    border:2px solid #000;
+    padding:10px;
+}
+
+.pos1_port4_h3 {
+    position:absolute;
+    top:79%;
+    left:44%;
+}
+
+.style1_port4_h3 {
+    font-size:18px;
+}
+
+.pos1_port4_p {
+    position:absolute;
+    text-align:center;
+    width:27%;
+    top:85%;
+    left:35%;
+    padding:0 0 0 10px;
+}
+
+.style1_port4_p1 {
+    font-size:14px;
+}
+
+.pos_port4_btn {
+    position: absolute;
+    bottom:0%;
+    left:44%;
+}
+
+.butt3_port4_style {
+    border:2px solid #000;
+    padding:10px;
+}
+
+
+.pos1_port5_h3 {
+    position:absolute;
+    top:79%;
+    left:78%;
+}
+
+.style1_port5_h3 {
+    font-size:18px;
+}
+
+.pos1_port5_p {
+    position:absolute;
+    text-align:center;
+    width:27%;
+    top:85%;
+    left:68%;
+    padding:0 0 0 10px;
+}
+
+.style1_port5_p1 {
+    font-size:14px;
+}
+
+.pos_port5_btn {
+    position: absolute;
+    bottom:0%;
+    left:77%;
+}
+
+.butt3_port5_style {
+    border:2px solid #000;
+    padding:10px;
+}
+
+@media screen and (max-width:2560px){
+    .img1 {
+        position:absolute;
+        left:15%;
+    }
+    .img2 {
+        position:absolute;
+        left:42%;
+    }
+    .img3{
+        position:absolute;
+         left:70%;
+    }
+    .img4 {
+        position:absolute;
+        top:50%;
+        left:15%;
+    }
+    .img5 {
+        position:absolute;
+        top:50%;
+        left:42%;
+    }
+    .img6 {
+        position:absolute;
+        top:50%;
+        left:70%;
+    }
+ 
+    .pos_h3 {
+        position:absolute;
+        top:17%;
+        left:21%;
+    }
+    .style_h3 {
+        padding:0 10px 0 0;
+    }
+    .pos1_p {
+        position:absolute;
+        top:20%;
+        left:18%;
+    }
+    .style_p1 {
+        width:30%; 
+    }
+    .pos1_btn {
+        position:absolute;
+        top:33%;
+        left:20%;
+    }
+   
+    .pos1_port_h3 {
+        top:17%;
+        left:48%;
+    }
+    .pos1_port_p {
+         top:20%;
+         left:45%;
+    }
+    .style1_port_p1 {
+        width:30%;
+        font-size:14px;
+    }
+    .pos_port_btn {
+        top:33%;
+        left:47%;
+    }
+    
+    .pos1_port2_h3 {
+        top:17%;
+        left:76%;
+    }
+    .pos1_port2_p {
+        top:20%;
+        left:73%;
+    }
+    .style1_port2_p1 {
+        width:30%;
+    }
+    .pos_port2_btn {
+        top:33%;
+        left:75%;
+    }
+    
+    .pos1_port3_h3 {
+        top:60%;
+        left:20%;
+    }
+    .pos1_port3_p {
+        top:63%;
+        left:18%;
+    }
+    .style1_port3_p1 {
+        width:30%;
+    }
+    .pos_port3_btn {
+        top:76%;
+        left:20%;
+    }
+    
+    .pos1_port4_h3 {
+        top:60%;
+        left:47%;
+    }
+    .pos1_port4_p {
+        top:63%;
+        left:45%;
+    }
+    .style1_port4_p1 {
+        width:30%;
+    }
+    .pos_port4_btn {
+        top:76%;
+        left:47%;
+    }
+   
+    .pos1_port5_h3 {
+        top:60%;
+        left:76%;
+    }
+    .pos1_port5_p {
+        top:63%;
+        left:73%;
+    }
+    .style1_port5_p1 {
+        width:30%;
+    }
+    .pos_port5_btn {
+        top:76%;
+        left:75%;
+    }
+    .undermaintext {
+        margin:0 0 0 720px;  
+    }
+    .h3 {
+        width:30%;
+    }
+    .butt1_style:hover {
+        padding: 11px;
+        color:#fff;
+        background-color:#00897b;
+    }
+    .butt2_port_style:hover {
+        padding: 11px;
+        color:#fff;
+        background-color:#00897b;
+    }
+    .butt2_port2_style:hover {
+        padding: 11px;
+        color:#fff;
+        background-color:#00897b;
+    }
+    .butt3_port3_style:hover {
+        padding: 11px;
+        color:#fff;
+        background-color:#00897b;
+    }
+    .butt3_port4_style:hover {
+        padding: 11px;
+        color:#fff;
+        background-color:#00897b;
+    }
+    .butt3_port5_style:hover {
+        padding: 11px;
+        color:#fff;
+        background-color:#00897b;
+    }
+    ul {
+        list-style: none;
+    }
+    li a {
+        font-size:23px;
+    }
+    .menu {
+        padding:0 0 15px 0;
+    }
+    .pos_1 {
+        position: absolute;
+        top:92%;
+        left:50%;
+    }
+}
