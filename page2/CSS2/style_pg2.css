@@ -1,5 +1,6 @@
 html {
-    overflow: hidden;
+    /* overflow: hidden; */
+    /* Вот так НИКОГДА лучше не делать */
 }
 body {
     background-color: #e4fdf9;
@@ -447,4 +448,50 @@ a {
         top:92%;
         left:50%;
     }
+}
+
+.navigation {
+    text-align: center;
+}
+.navigation__link {
+    padding: 5px;
+}
+.navigation__link:hover,
+.active-link {
+    color: #fff;
+    background-color: #111;
+}
+
+.services {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.service {
+    width: 400px;
+    background-color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+}
+.service__image {
+    width: 20%;
+}
+.service__title {
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+.service__description {
+    text-align: left;
+}
+.service__action {
+    margin-top: 10px;
+    border: 2px solid #000;
+    padding: 10px;
+}
+.service__action:hover {
+    padding: 11px;
+    color:#fff;
+    background-color:#00897b;
 }
